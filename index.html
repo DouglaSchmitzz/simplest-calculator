@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplest Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+    <body>
+      <header>
+        <h1>The Simplest Calculator Ever</h1>
+      </header>
+      
+      <div id="form">
+        <input type="number" id="n1" placeholder="Type the first number"><br>
+          <select id="selector">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+         </select><br>
+        
+        <input type="number" id="n2" placeholder="Type the second number"><br>
+        <button onclick="calculate()">Calculate</button>
+      </div>
+
+      <div>
+        <h3 id="results"></h3>
+      </div>
+
+     
+      
+      <script src="script.js"></script>
+  </body>
+
+     <footer>
+       <p>Feito por: Douglas Schmitz</p>
+     </footer>
+
+</html> 
