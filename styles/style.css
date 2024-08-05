@@ -12,12 +12,13 @@ body {
     align-items: center;
     flex-direction: column;
     line-height: 70px;
-    background-image: linear-gradient(90deg, rgb(20, 57, 72), rgba(88, 106, 106), rgba(185, 163, 148));
-}
+    background-image: url(/images/pexels-sliceisop-1591447.jpg); 
+    background-size: cover;
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    color: white;
 }
 
 output {
@@ -42,14 +43,19 @@ input {
 }
 
 #form {
-    margin-top: 10rem;
+    margin-top: 8rem;
     width: 20rem;
-    height: 17rem;
+    height: 20rem;
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgb(0, 0, 0, .2);
     border-radius: 10px;
+}
+
+#form input {
+    margin-top: 2.5rem;
+
 }
 
 button {
