@@ -16,15 +16,15 @@ function calculate(n1,n2) {
         
         case "/":
             calculation = (n1 / n2)
-            if(Number.isNaN(calculo)){
+            if(Number.isNaN(calculation)){
                 document.getElementById("results").innerHTML = `Insert a valid number` 
             } else {
-            document.getElementById("results").innerHTML = `The result of the division ${n1} / ${n2} is ${calculation}`
+                document.getElementById("results").innerHTML = `The result of the division ${n1} / ${n2} is ${calculation}`
             break
             }
         
         case "*":
             calculation = (n1 * n2)
-            document.getElementById("results").innerHTML = `The result of the multiplication ${n1} * ${n2} is ${calculation}`
+                document.getElementById("results").innerHTML = `The result of the multiplication ${n1} * ${n2} is ${calculation}`
     }
 }
